@@ -1,0 +1,13 @@
+{
+  "attacker": "attacker-nkjrmrsq-202509291846.onnx",
+  "defender": "defender-tukbajrv-202509241418.onnx",
+  "fallback": "StupidAI",
+  // Adjust temperature to alter model behaviour:
+  // 0.0 = greedy (deterministic)
+  // 1.0 = baseline
+  // 2.0 = uncertain
+  // 2.5 = dumb
+  // 3+ = garbage (too random)
+  "temperature": 0.5,
+  "seed": 0
+}
