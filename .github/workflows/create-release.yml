@@ -1,0 +1,26 @@
+name: Create release
+
+on:
+  workflow_dispatch:
+    inputs:
+      mod_version:
+        description: "Mod version"
+        required: true
+        default: latest
+
+permissions:
+  contents: write
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -x
+          bash .github/scripts/create-release.sh "${{ github.event.inputs.mod_version }}"
