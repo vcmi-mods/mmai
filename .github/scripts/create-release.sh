@@ -10,7 +10,8 @@ set -euxo pipefail
 
 MOD_VERSION="$1"
 
-VCMI_COMPAT=$(jq -r '.compatibility.min' mmai/mod.json)
+# Keep only major.minor (discard patch)
+VCMI_COMPAT=$(jq -r '.compatibility.min | split(".")[0:2] | join(".")' mmai/mod.json)
 RELEASE_TAG="vcmi-${VCMI_COMPAT}-${MOD_VERSION}"
 REPO="${GITHUB_REPOSITORY}"
 
