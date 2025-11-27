@@ -14,3 +14,11 @@ GHA workflow should be used for mod releases. It will:
 If another release with this tag already exists, it is re-tagged as
 `vcmi-VCMIVER-TIMESTAMP` so the new mod becomes downloadable via the old
 URL.
+
+#### Example
+
+A new VCMI version `1.8.0` is released and mod compatibility must be updated accordingly:
+1. Update `mmai/mod.json` (directly in main branch)
+1. Run the [workflow](https://github.com/vcmi-mods/mmai/actions/workflows/create-release.yml).
+
+Release `vcmi-1.8-latest` will appear shortly.
