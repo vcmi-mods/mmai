@@ -2,6 +2,8 @@
 
 Pre-trained models for VCMI's combat AI powered by machine learning.
 
+<img src="screenshots/screenshot-01.png" alt="components" height="300px">
+
 ## Mod release workflow
 
 [This](https://github.com/vcmi-mods/mmai/actions/workflows/create-release.yml)
