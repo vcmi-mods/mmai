@@ -25,7 +25,8 @@ URL.
 #### Example
 
 A new VCMI version `1.8.0` is released and mod compatibility must be updated accordingly:
-1. Update `mmai/mod.json` (directly in main branch)
-1. Run the [workflow](https://github.com/vcmi-mods/mmai/actions/workflows/create-release.yml).
+1. Create new branch `vcmi-1.8`
+1. Update `mmai/mod.json` in branch `vcmi-1.8`
+1. Run the [workflow](https://github.com/vcmi-mods/mmai/actions/workflows/create-release.yml) for branch `vcmi-1.8`
 
 Release `vcmi-1.8-latest` will appear shortly.
