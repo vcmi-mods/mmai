@@ -22,11 +22,22 @@ If another release with this tag already exists, it is re-tagged as
 `vcmi-VCMIVER-TIMESTAMP` so the new mod becomes downloadable via the old
 URL.
 
-#### Example
+### Examples
+
+#### 1. Mod release for a new VCMI major/minor version
 
 A new VCMI version `1.8.0` is released and mod compatibility must be updated accordingly:
 1. Create new branch `vcmi-1.8`
-1. Update `mmai/mod.json` in branch `vcmi-1.8`
-1. Run the [workflow](https://github.com/vcmi-mods/mmai/actions/workflows/create-release.yml) for branch `vcmi-1.8`
+1. Update `mmai/mod.json` with min compatibility version = `1.8.0`
+1. Run the [workflow](https://github.com/vcmi-mods/mmai/actions/workflows/create-release.yml) for branch = `vcmi-1.8`
 
 Release `vcmi-1.8-latest` will appear shortly.
+
+#### 2. Mod release for a new VCMI patch version
+
+A new VCMI version `1.8.1` is released and mod compatibility must be updated accordingly:
+1. Update `mmai/mod.json` with min compatibility version = `1.8.1`
+1. Run the [workflow](https://github.com/vcmi-mods/mmai/actions/workflows/create-release.yml) for branch = `vcmi-1.8`
+
+Release `vcmi-1.8-latest` will appear shortly. The previous release with the same name is renamed to `vcmi-1.8-TIMESTAMP`
+where TIESTAMP is the current time in `YYYYMMDD` format
