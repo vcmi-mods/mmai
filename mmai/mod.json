@@ -24,5 +24,9 @@
     "filesystem": {
         "MMAI/CONFIG/": [{"path": "/config","type": "dir"}],
         "MMAI/MODELS/": [{"path": "/models","type": "dir"}]
+    },
+    "czech" : {
+        "name": "MMAI",
+        "description": "<p>MMAI je bitevní umělá inteligence využívající strojové učení.</p><p>Chcete-li MMAI používat, ujistěte se, že je vybrána v Nastavení Launcheru pod položkou Umělá inteligence - Neutrální AI v bitvách / AI automatického boje v bitvách / Nepřátelská AI v bitvách.</p><p><i>Více o tomto projektu si můžete přečíst <a href='https://smanolloff.github.io/projects/vcmi-gym'>zde</a>.</i></p>"
     }
 }
