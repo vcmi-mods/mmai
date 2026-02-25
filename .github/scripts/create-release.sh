@@ -67,6 +67,15 @@ settings=$(jq '.models = {}' mmai/config/mmai-settings.json)
 while read -r name url; do
   filename="${url##*/}"
   curl --fail -Lo "mmai/models/${filename}" "${url}"
+
+  # Temporary code to handle stochastic suffixes (to be removed with 1.8)
+  # Typically, URLs in sources.json do NOT have a suffix at all and suffixed
+  # versions of the models are instead downloaded via hidden.json
+  # However, when there is only one (stochastic) version of a model, then it
+  # must be explicitly listed in sources.json, but its suffix
+  # should not be present in the config (even though it does not exist)
+  filename="${filename/-stochastic.onnx/.onnx}"
+
   settings=$(echo "$settings" | jq --arg k "$name" --arg v "$filename" '.models[$k] = $v')
 done < <(jq -r 'to_entries[] | "\(.key) \(.value)"' mmai/models/sources.json)
 
