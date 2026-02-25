@@ -13,6 +13,7 @@
             "Improved model inference speed via dynamic inputs"
         ],
         "1.3": ["Re-enabled temperature parameter in mmai-settings.json."],
+        "1.4": ["Updated models which should now kite less vs. shooters."],
         "2.0.0": ["Reduced size by removing deprecated models from VCMI-1.7"]
     },
     "compatibility": {
