@@ -14,6 +14,7 @@
         ],
         "1.3": ["Re-enabled temperature parameter in mmai-settings.json."],
         "1.4": ["Updated models which should now kite less vs. shooters."],
+        "1.5": ["Reverded defender model to due to regression in siege combat"],
         "2.0.0": ["Reduced size by removing deprecated models from VCMI-1.7"]
     },
     "compatibility": {
