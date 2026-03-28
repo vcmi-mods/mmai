@@ -1,4 +1,5 @@
 {
   "attacker": "https://github.com/smanolloff/vcmi-gym/releases/download/v1.2/attacker-nkjrmrsq-202509291846-stochastic.onnx",
-  "defender": "https://github.com/smanolloff/vcmi-gym/releases/download/v1.2/defender-tukbajrv-202509241418-stochastic.onnx"
+  "defender": "https://github.com/smanolloff/vcmi-gym/releases/download/v1.2/defender-tukbajrv-202509241418-stochastic.onnx",
+  "defender.siege": "https://github.com/smanolloff/vcmi-gym/releases/download/v1.4/defender-fqcbvmti-best7.onnx"
 }
