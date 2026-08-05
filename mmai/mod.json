@@ -3,7 +3,7 @@
     "description": "<p>MMAI is a combat AI powered by machine learning.</p><p>To use MMAI, make sure to select it in Settings (see Screenshots tab).</p><p><i>You can read more about this project <a href='https://smanolloff.github.io/projects/vcmi-gym'>here</a>.</i></p>",
     "author": "Simeon Manolov <s.manolloff@gmail.com>",
     "contact": "https://smanolloff.github.io/projects/vcmi-gym",
-    "version": "2.1.0",
+    "version": "3.0.0",
     "modType": "AI",
     "changelog": {
         "1.0": ["Initial release"],
@@ -16,7 +16,8 @@
         "1.4": ["Updated models which should now kite less vs. shooters."],
         "1.5": ["Reverded defender model to due to regression in siege combat"],
         "2.0.0": ["Reduced size by removing deprecated models from VCMI-1.7"],
-        "2.1.0": ["Add a less aggressive model for siege defense only"]
+        "2.1.0": ["Add a less aggressive model for siege defense only"],
+        "3.0.0": ["Introducing MMAI v15 \"Graphmind\", featuring a more powerful set of models."]
     },
     "compatibility": {
         "min": "1.8.0",
