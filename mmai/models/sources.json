@@ -1,5 +1,5 @@
 {
-  "attacker": "https://github.com/smanolloff/vcmi-gym/releases/download/v2.0/attacker-pdpyqkrb-202607251913.onnx",
-  "defender": "https://github.com/smanolloff/vcmi-gym/releases/download/v2.0/defender-zvytfdpo-202607230657.onnx",
-  "defender.siege": "https://github.com/smanolloff/vcmi-gym/releases/download/v2.0/defender-eaqbvprl-202607271629.onnx"
+  "attacker": "https://github.com/smanolloff/vcmi-gym/releases/download/v2.1/attacker-pdpspars-202610132318.onnx",
+  "defender": "https://github.com/smanolloff/vcmi-gym/releases/download/v2.1/defender-zvyspars-202610152155.onnx",
+  "defender.siege": "https://github.com/smanolloff/vcmi-gym/releases/download/v2.1/defender-zvystown-202610140025.onnx"
 }
