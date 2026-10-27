@@ -3,7 +3,7 @@
     "description": "<p>MMAI is a combat AI powered by machine learning.</p><p>To use MMAI, make sure to select it in Settings (see Screenshots tab).</p><p><i>You can read more about this project <a href='https://smanolloff.github.io/projects/vcmi-gym'>here</a>.</i></p>",
     "author": "Simeon Manolov <s.manolloff@gmail.com>",
     "contact": "https://smanolloff.github.io/projects/vcmi-gym",
-    "version": "3.1.0",
+    "version": "3.1.1",
     "modType": "AI",
     "changelog": {
         "1.0": ["Initial release"],
