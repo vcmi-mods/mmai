@@ -8,6 +8,7 @@
     "  3+ = garbage (too random)"
   ],
   "models": {},
+  "useCreatureSpells": true,
   "fallback": "BattleAI",
   "temperature": 0,
   "seed": 0

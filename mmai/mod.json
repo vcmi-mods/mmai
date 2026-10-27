@@ -22,6 +22,10 @@
             "Enhanced overall model decision-making through sparse-reward training",
             "Strengthened the model's response to hit-and-run tactics with extensive targeted training",
             "Trained on VCMI's new damage calculation system"
+        ],
+        "3.1.1": [
+            "Added creature spellcasting delegated to BattleAI",
+            "Removed misleading error log during MMAI load"
         ]
     },
     "compatibility": {
